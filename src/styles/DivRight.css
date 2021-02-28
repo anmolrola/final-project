@@ -1,0 +1,118 @@
+.divRight{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 75%;
+    top: 0%;
+    left: 0%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-family: 'semibold';
+    font-size: 100%;
+    color: #FFFFFF;
+}
+  
+.divRight p {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    color: #FFE8DF;
+    font-family: 'light';
+    font-size: 70%;
+    max-width: 50%;
+}
+
+.navBar{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+  
+.navBar a, button{
+    padding: 8px;
+    font-style: 'semibold';
+    font-size: 10px;
+    text-decoration: none;
+    color: #F7F7F7;
+    background: none;
+    border: none;
+}
+  
+.links{
+    position: absolute;
+    bottom: 2%;
+    right: 0%;
+}
+  
+.links img{
+    padding: 5px;
+    width: 15%;
+}
+
+@media only screen and (min-width: 800px) {
+    .divRight{
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        left: 50%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    h3{
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        font-size: 100%;
+        font-family: 'semibold';
+        color: #FFFFFF;
+    }
+      
+    .divRight p {
+        position: absolute;
+        top: 64%;
+        left: 15%;
+        max-width: 30%;
+        color: #FFE8DF;
+        font-family: 'light';
+        font-size: 90%;
+    }
+    
+    .navBar{
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+      
+    .navBar button{
+        padding: 12px;
+        font-style: 'semibold';
+        font-size: 60%;
+        text-decoration: none;
+        color: #F7F7F7;
+        background: none;
+        border: none;
+    }
+      
+    .links{
+        position: absolute;
+        bottom:2%;
+        right: 0%;
+    }
+      
+    .links img{
+        padding: 7px;
+        width: 15%
+    }
+}
+
+
+  

@@ -1,0 +1,14 @@
+type Query {
+    INFO: String!
+    GET_DATA: [Data!]!
+}
+
+type Mutation {
+    SEND_MESSAGE(name: String!, email: String!, message: String!): Data!
+}
+
+type Data {
+    name: String!
+    email: String!
+    message: String!
+}
